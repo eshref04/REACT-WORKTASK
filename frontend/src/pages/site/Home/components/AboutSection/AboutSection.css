@@ -1,0 +1,13 @@
+.about__section__right span{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.about__section__right h3{
+    color: #404044;
+}
+
+.about__section__right p{
+    color: #8b8b92;
+}

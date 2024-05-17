@@ -1,0 +1,12 @@
+.footer__left__icons li div{
+    
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

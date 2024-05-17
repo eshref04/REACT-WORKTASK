@@ -1,0 +1,73 @@
+ .container a{
+   text-decoration: none;
+   color: white;
+}
+
+.header__logo{
+    font-weight: 600;
+    border: 2px solid #fff;
+    line-height: 1;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__section{
+    background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_1.jpg.webp");
+    background-size: cover;
+    background-position: center;
+     position: relative;
+     z-index: 1;
+}
+
+.hero__section__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #404044;
+    opacity: .6;
+    z-index: -1;
+}
+
+.hero__section__head a{
+    cursor: pointer;
+    padding: 14px 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background: none;
+    border-radius: 0px;
+    border-width: 2px;
+}
+
+.hero__section form{
+    width: 100%;
+    justify-content: space-between;
+    background: #ffb400;
+    display: flex;
+     
+
+    margin-top: 100px;
+    padding: 42px 60px;
+}
+
+.hero__section form input,select{
+    padding: 10px;
+    background: none;
+    border: 1px solid black;
+}
+
+.last__input{
+    background: white;
+    padding: 10px;
+    border: none;
+}
+
+.hero__section__head h1{
+    font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}

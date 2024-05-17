@@ -1,0 +1,15 @@
+.cards__section{
+    padding-top: 80px;
+}
+
+.cards__section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.cards__section__heading span{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.2);
+}
