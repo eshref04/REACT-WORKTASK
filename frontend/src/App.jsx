@@ -16,7 +16,7 @@ function App() {
   }
 
   useEffect(()=>{
-     axios.get("http://localhost:5000/category").then(res=>{
+     axios.get("http://localhost:8080/category").then(res=>{
       setData([...res.data])
       
      }).catch(error=>{

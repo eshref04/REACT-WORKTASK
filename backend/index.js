@@ -49,7 +49,7 @@ app.listen(process.env.PORT, ()=>{
 
 connect(process.env.API_URL)
 .then(()=>{
-    console.log("Baglandi askm")
+    console.log("Baglandi ")
 })
 .catch((error)=>{
     console.log(error)
